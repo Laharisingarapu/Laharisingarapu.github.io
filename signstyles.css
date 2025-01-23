@@ -56,7 +56,7 @@ button:hover {
   padding: 16px;
   box-shadow: 0 20px 35px rgba(0,0,1,0.9);
   border-radius: 15px;
-  
+  display: none;
 }
 
 /* The Modal (background) */
@@ -92,11 +92,11 @@ hr {
 /* The Close Button (x) */
 .close {
   position: absolute;
-  right: 550px;
-  top: 110px;
+  right: 470px;
+  top: 60px;
   font-size: 40px;
   font-weight: bold;
-  color: #000000;
+  color: #f1f1f1;
 }
 
 .close:hover,
