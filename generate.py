@@ -1,7 +1,7 @@
 import qrcode
 
 # URL of your HTML file
-url = "http://localhost/Restaurant-QR/"  # Change this to your actual URL
+url = "https://laharisingarapu.github.io/"  # Change this to your actual URL
 
 # Generate QR code
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
