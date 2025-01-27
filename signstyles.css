@@ -76,7 +76,7 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 30%; 
   border-radius: 15px;/* Could be more or less, depending on screen size */
@@ -111,8 +111,9 @@ hr {
   display: table;
 }
 
+
 /* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
+@media (max-width: 678px) {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
